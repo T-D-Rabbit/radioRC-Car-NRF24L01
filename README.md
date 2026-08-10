@@ -2,4 +2,6 @@
 
 Radio RC Robot Car, Tank drive system
 
-Will add more...
+##Controller Wiring Diagram
+
+![Wiring Diagram for RC Controller](SchematicPic.jpg)
