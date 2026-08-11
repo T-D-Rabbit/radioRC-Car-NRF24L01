@@ -20,6 +20,7 @@ To be added.
 
 - Arduino Pro Mini
 - NRF24L01 2.4GHz Transceiver Module
+- I2C 0.96 inch screen module
 - Joystick Module (2)
 - Potentiometers (2)
 - Switches (2)
@@ -38,3 +39,22 @@ Car can be assembled with anything as long as there is a microcontroller, a good
 - AA battery x 4 holder
 - 6V N20 motors
 - Connecting wires
+
+## Instructions for use
+
+### Libraries used
+#### Controller
+- <SPI.h>
+- <Wire.h>
+- <RF24.h>
+- <nRF24L01.h>
+- <Adafruit_GFX.h>
+- <Adafruit_SSD1306.h>
+
+#### Car
+- <SPI.h>
+- <RF24.h>
+- <nRF24L01.h>
+
+### Some details about the code
+
