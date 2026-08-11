@@ -20,7 +20,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 //Screen stuff above. END.
 
-#define POT_L   A6
+#define POT_L  A6
 #define POT_R  A7
 #define JOY_Y A1
 #define JOY_X A0
