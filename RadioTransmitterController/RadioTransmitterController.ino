@@ -71,7 +71,7 @@ void loop()
 {
   data.Rx = analogRead(JOY_X);
   data.Ly = analogRead(JOY_Y);
-  data.Rpot = 1023 - analogRead(POT_R); //Accounting for wiring fault. To be wire correctly.
+  data.Rpot = 1023 - analogRead(POT_R); //Accounting for wiring fault. To be wired correctly.
   data.Lpot = analogRead(POT_L);
   data.RSw = digitalRead(SW_RIGHT); //Wired accordingly.
   data.LSw = digitalRead(SW_LEFT); //Wired accordingly.
